@@ -41,7 +41,7 @@ public class TestGreeter {
 
 @Test
   public void greetShouldIncludeGreetingPhase() {
-    String someone = "Hello World, Thanks you for making me happy";
+    String someone = "Hello World, Its me Pankti. Thanks you for making me happy";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
