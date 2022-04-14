@@ -29,14 +29,27 @@ public class TestGreeter {
 
   @Test
   public void greetShouldIncludeGreetingPhrase() {
-    String someone = "World";
+    String someone = "Hello World";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
 
+    
     @Test
+<<<<<<< HEAD
   public void greetShouldIncludeGreetingMessage() {
     String someone = "Hello World, Its me Pankti. Thanks you making me Happy";
+=======
+  public void greetShouldIncludeGreetingPhase() {
+    String someone = "Hello World, Thanks you";
+
+    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
+
+@Test
+  public void greetShouldIncludeGreetingPhase() {
+    String someone = "Hello World, Its me Pankti. Thanks you for making me happy";
+>>>>>>> beedde4329bc82aca31c90c7d383105451470150
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
