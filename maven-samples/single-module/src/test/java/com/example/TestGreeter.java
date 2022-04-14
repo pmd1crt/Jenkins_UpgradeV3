@@ -37,17 +37,22 @@ public class TestGreeter {
     
     @Test
 <<<<<<< HEAD
+<<<<<<< HEAD
   public void greetShouldIncludeGreetingMessage() {
     String someone = "Hello World, Its me Pankti. Thanks you making me Happy";
 =======
   public void greetShouldIncludeGreetingPhase() {
     String someone = "Hello World, Thanks you";
+=======
+  public void greetShouldIncludeGreetingMessage1() {
+    String someone = "Hello World, It's me Pankti.Thanks you";
+>>>>>>> c79e40f0cd419450940cd1d4b798f83e5383cfff
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
 
 @Test
-  public void greetShouldIncludeGreetingPhase() {
+  public void greetShouldIncludeGreetingMes() {
     String someone = "Hello World, Its me Pankti. Thanks you for making me happy";
 >>>>>>> beedde4329bc82aca31c90c7d383105451470150
 
